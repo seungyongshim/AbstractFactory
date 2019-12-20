@@ -1,0 +1,9 @@
+C:\Workspace\git2019\AbstractFactory\AbstractFactory\obj\Debug\netcoreapp2.2\AbstractFactory.csprojAssemblyReference.cache
+C:\Workspace\git2019\AbstractFactory\AbstractFactory\obj\Debug\netcoreapp2.2\AbstractFactory.csproj.CoreCompileInputs.cache
+C:\Workspace\git2019\AbstractFactory\AbstractFactory\obj\Debug\netcoreapp2.2\AbstractFactory.AssemblyInfoInputs.cache
+C:\Workspace\git2019\AbstractFactory\AbstractFactory\obj\Debug\netcoreapp2.2\AbstractFactory.AssemblyInfo.cs
+C:\Workspace\git2019\AbstractFactory\AbstractFactory\bin\Debug\netcoreapp2.2\AbstractFactory.deps.json
+C:\Workspace\git2019\AbstractFactory\AbstractFactory\bin\Debug\netcoreapp2.2\AbstractFactory.dll
+C:\Workspace\git2019\AbstractFactory\AbstractFactory\bin\Debug\netcoreapp2.2\AbstractFactory.pdb
+C:\Workspace\git2019\AbstractFactory\AbstractFactory\obj\Debug\netcoreapp2.2\AbstractFactory.dll
+C:\Workspace\git2019\AbstractFactory\AbstractFactory\obj\Debug\netcoreapp2.2\AbstractFactory.pdb

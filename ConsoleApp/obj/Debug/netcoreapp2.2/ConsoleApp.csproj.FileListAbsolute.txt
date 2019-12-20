@@ -1,0 +1,14 @@
+C:\Workspace\git2019\AbstractFactory\ConsoleApp\bin\Debug\netcoreapp2.2\ConsoleApp.deps.json
+C:\Workspace\git2019\AbstractFactory\ConsoleApp\bin\Debug\netcoreapp2.2\ConsoleApp.runtimeconfig.json
+C:\Workspace\git2019\AbstractFactory\ConsoleApp\bin\Debug\netcoreapp2.2\ConsoleApp.runtimeconfig.dev.json
+C:\Workspace\git2019\AbstractFactory\ConsoleApp\bin\Debug\netcoreapp2.2\ConsoleApp.dll
+C:\Workspace\git2019\AbstractFactory\ConsoleApp\bin\Debug\netcoreapp2.2\ConsoleApp.pdb
+C:\Workspace\git2019\AbstractFactory\ConsoleApp\bin\Debug\netcoreapp2.2\AbstractFactory.dll
+C:\Workspace\git2019\AbstractFactory\ConsoleApp\bin\Debug\netcoreapp2.2\AbstractFactory.pdb
+C:\Workspace\git2019\AbstractFactory\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.csprojAssemblyReference.cache
+C:\Workspace\git2019\AbstractFactory\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Workspace\git2019\AbstractFactory\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.AssemblyInfoInputs.cache
+C:\Workspace\git2019\AbstractFactory\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.AssemblyInfo.cs
+C:\Workspace\git2019\AbstractFactory\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.csproj.CopyComplete
+C:\Workspace\git2019\AbstractFactory\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.dll
+C:\Workspace\git2019\AbstractFactory\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.pdb
