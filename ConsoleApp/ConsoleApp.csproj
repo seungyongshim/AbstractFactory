@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,8 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AbstractFactoryImpl\AbstractFactoryImpl.csproj" />
-    <ProjectReference Include="..\AbstractFactory\AbstractFactory.csproj" />
+    <ProjectReference Include="..\LibA\LibA.csproj" />
+    <ProjectReference Include="..\LibB\LibB.csproj" />
+    <ProjectReference Include="..\LibC\LibC.csproj" />
+    <ProjectReference Include="..\LibD\LibD.csproj" />
+    <ProjectReference Include="..\Lib\Lib.csproj" />
   </ItemGroup>
 
 </Project>

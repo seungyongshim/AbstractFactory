@@ -1,7 +1,8 @@
 ﻿// http://codinghelmet.com/articles/cascading-abstract-factories
+using Lib;
+using LibA;
+using LibB;
 using System;
-using AbstractFactory;
-using AbstractFactory.Impl;
 
 namespace ConsoleApp
 {
@@ -9,10 +10,10 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            var factoryA = new FactoryA();
-            var factoryB = new FactoryB();
-            var factoryC = new FactoryC();
-            var factoryD = new FactoryD();
+            IFactoryA factoryA = new FactoryA();
+            IFactoryB factoryB = new FactoryB();
+            IFactoryC factoryC = new FactoryC();
+
 
 
         }
