@@ -10,7 +10,6 @@
     <ProjectReference Include="..\LibB\LibB.csproj" />
     <ProjectReference Include="..\LibC\LibC.csproj" />
     <ProjectReference Include="..\LibD\LibD.csproj" />
-    <ProjectReference Include="..\Lib\Lib.csproj" />
   </ItemGroup>
 
 </Project>

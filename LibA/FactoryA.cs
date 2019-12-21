@@ -7,9 +7,16 @@ namespace LibA
 {
     public class FactoryA : IFactoryA
     {
+        IFactoryB _factoryB { get; }
+
+        public FactoryA(IFactoryB factoryB)
+        {
+            _factoryB = factoryB;
+        }
+        
         public IClassA Create()
         {
-            return new ClassA(IFactoryB );
+            return new ClassA(_factoryB);
         }
     }
 }

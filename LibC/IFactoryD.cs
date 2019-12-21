@@ -4,7 +4,8 @@ using System.Text;
 
 namespace LibC
 {
-    interface IFactoryD
+    public interface IFactoryD
     {
+        IClassD Create();
     }
 }

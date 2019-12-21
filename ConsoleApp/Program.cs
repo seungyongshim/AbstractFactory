@@ -2,6 +2,8 @@
 using Lib;
 using LibA;
 using LibB;
+using LibC;
+using LibD;
 using System;
 
 namespace ConsoleApp
@@ -10,12 +12,14 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            IFactoryA factoryA = new FactoryA();
-            IFactoryB factoryB = new FactoryB();
-            IFactoryC factoryC = new FactoryC();
+            IFactoryD factoryD = new FactoryD();
+            IFactoryC factoryC = new FactoryC(factoryD);
+            IFactoryB factoryB = new FactoryB(factoryC);
+            IFactoryA factoryA = new FactoryA(factoryB);
 
+            var classA = factoryA.Create();
 
-
+            Console.WriteLine(classA);
         }
     }
 }

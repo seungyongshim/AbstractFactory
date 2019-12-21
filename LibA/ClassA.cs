@@ -11,5 +11,10 @@ namespace LibA
         {
             _classB = factoryB.Create();
         }
+
+        public override string ToString()
+        {
+            return $"ClassA -> {_classB.ToString()}";
+        }
     }
 }

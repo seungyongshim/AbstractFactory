@@ -7,9 +7,14 @@ namespace LibC
 {
     public class FactoryC : IFactoryC
     {
+        IFactoryD _factoryD;
         public IClassC Create()
         {
-            return new ClassC();
+            return new ClassC(_factoryD);
+        }
+        public FactoryC(IFactoryD factoryD)
+        {
+            _factoryD = factoryD;
         }
     }
 }
