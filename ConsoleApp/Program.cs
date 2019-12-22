@@ -6,7 +6,7 @@ using LibC;
 using LibD;
 using System;
 
-namespace ConsoleApp
+namespace ConsoleAbstractFactory
 {
     class Program
     {

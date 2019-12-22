@@ -16,7 +16,7 @@ namespace LibB
 
         public IClassB Create()
         {
-            return new ClassB(_factoryC);
+            return new ClassB(_factoryC.Create());
         }
     }
 }

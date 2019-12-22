@@ -3,13 +3,13 @@ using System;
 
 namespace LibC
 {
-    internal class ClassC : IClassC
+    public class ClassC : IClassC
     {
         IClassD _classD;
 
-        public ClassC(IFactoryD factoryD)
+        public ClassC(IClassD classD)
         {
-            _classD = factoryD.Create();
+            _classD = classD;
         }
 
         public override string ToString()

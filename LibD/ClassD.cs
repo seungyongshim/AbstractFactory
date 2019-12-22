@@ -3,7 +3,7 @@ using System;
 
 namespace LibD
 {
-    internal class ClassD : IClassD
+    public class ClassD : IClassD
     {
         public override string ToString()
         {

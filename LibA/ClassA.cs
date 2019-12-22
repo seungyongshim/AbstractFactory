@@ -3,15 +3,14 @@ using System;
 
 namespace LibA
 {
-    internal class ClassA : IClassA
+    public class ClassA : IClassA
     {
         IClassB _classB;
-
-        public ClassA(IFactoryB factoryB)
+        
+        public ClassA(IClassB classB)
         {
-            _classB = factoryB.Create();
+            _classB = classB;
         }
-
         public override string ToString()
         {
             return $"ClassA -> {_classB.ToString()}";

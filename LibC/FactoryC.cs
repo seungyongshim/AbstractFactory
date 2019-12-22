@@ -10,7 +10,7 @@ namespace LibC
         IFactoryD _factoryD;
         public IClassC Create()
         {
-            return new ClassC(_factoryD);
+            return new ClassC(_factoryD.Create());
         }
         public FactoryC(IFactoryD factoryD)
         {
