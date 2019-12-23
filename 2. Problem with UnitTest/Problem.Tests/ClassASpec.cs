@@ -1,11 +1,14 @@
-﻿using System;
+﻿using FluentAssertions;
+using Xunit;
 
-namespace Problem
+namespace Problem.Tests
 {
-    class Program
+    public class ClassASpec
     {
-        static void Main(string[] args)
+        [Fact]
+        public void Create()
         {
+            //Act
             var classA = new ClassA(
                 Dependency.M,
                 Dependency.N,
@@ -13,6 +16,9 @@ namespace Problem
                 Dependency.P,
                 Dependency.Q,
                 Dependency.R);
+
+            //Assert
+            classA.R.Should().Be(Dependency.R);
         }
     }
 }
